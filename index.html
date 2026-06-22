@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Étoile Photographie — luxury photography portfolio for weddings, fashion, travel and commercial imagery.">
+  <meta name="theme-color" content="#0f1014">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Étoile Photographie | Luxury Photography Portfolio">
+  <meta property="og:description" content="A premium portfolio website for a world-class professional photographer.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80">
+  <meta property="og:url" content="https://example.com">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Étoile Photographie | Luxury Photography Portfolio">
+  <meta name="twitter:description" content="Luxury photography portfolio website crafted for premium brands, weddings, fashion, travel and commercial clients.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%230f1014'/%3E%3Cpath d='M50 14 L63 42 H92 L68 60 L79 90 L50 72 L21 90 L32 60 L8 42 H37 Z' fill='%23d4af37'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Étoile Photographie | Luxury Photography Portfolio</title>
+</head>
+<body class="theme-dark">
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="brand-group">
+        <a class="brand-logo" href="#home" aria-label="Étoile home">
+          <span class="brand-mark">É</span>
+          <span>
+            <strong>Étoile</strong>
+          </span>
+        </a>
+        <span class="brand-note">Premium visual storytelling</span>
+      </div>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button theme-toggle" id="themeToggle" aria-label="Toggle dark mode"></button>
+        <button class="icon-button menu-toggle" id="menuToggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <nav class="mobile-nav" aria-label="Mobile navigation">
+        <a href="#home">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#contact" class="button button-outline mobile-cta">Book a consultation</a>
+    </div>
+
+    <main>
+      <section class="hero section section-hero" id="home">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Signature imagery for luxury brands</span>
+          <h1>Luxury photography that transforms moments into enduring visual stories.</h1>
+          <p class="hero-text">From weddings and fashion campaigns to travel editorials and commercial launches, Étoile delivers cinematic direction, polished compositions, and a refined premium experience.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#portfolio">Explore portfolio</a>
+            <a class="button button-soft" href="#contact">Request booking</a>
+          </div>
+          <div class="hero-stat-grid">
+            <div><strong>280+</strong><span>Signature sessions</span></div>
+            <div><strong>15</strong><span>International awards</span></div>
+            <div><strong>24/7</strong><span>Worldwide availability</span></div>
+          </div>
+        </div>
+        <div class="hero-frame reveal">
+          <div class="hero-image" role="img" aria-label="Luxury wedding photography sample image">
+            <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=1200&q=80" alt="Luxury wedding photography" loading="lazy">
+            <div class="hero-caption">
+              <span>Editorial wedding portrait</span>
+            </div>
+          </div>
+          <div class="hero-decor"></div>
+        </div>
+      </section>
+
+      <section class="section section-clients reveal">
+        <div class="section-intro">
+          <p class="eyebrow">Trusted by discerning clients</p>
+          <h2>Luxury brands, bespoke clients and global creative partners.</h2>
+        </div>
+        <div class="client-grid">
+          <span>Maison Noir</span>
+          <span>Olive Atelier</span>
+          <span>Rive & Rose</span>
+          <span>Eastward Studio</span>
+          <span>Luna House</span>
+          <span>Helix Collective</span>
+        </div>
+      </section>
+
+      <section class="section section-portfolio reveal" id="portfolio">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Portfolio</p>
+            <h2>Curated collections from every signature discipline.</h2>
+          </div>
+          <p class="section-copy">Discover the craftsmanship behind weddings, fashion editorials, travel stories, commercial launches and personal branding sessions.</p>
+        </div>
+
+        <div class="filter-row" role="toolbar" aria-label="Portfolio filters">
+          <button class="filter-button active" data-filter="all">All</button>
+          <button class="filter-button" data-filter="wedding">Wedding</button>
+          <button class="filter-button" data-filter="portrait">Portrait</button>
+          <button class="filter-button" data-filter="street">Street</button>
+          <button class="filter-button" data-filter="travel">Travel</button>
+          <button class="filter-button" data-filter="fashion">Fashion</button>
+          <button class="filter-button" data-filter="product">Product</button>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="portfolio-card" data-category="wedding" tabindex="0" aria-label="Wedding portfolio item">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80" alt="Wedding editorial portrait" loading="lazy">
+            <div class="portfolio-details">
+              <span>Wedding</span>
+              <h3>Golden ceremony</h3>
+            </div>
+          </article>
+          <article class="portfolio-card" data-category="portrait" tabindex="0" aria-label="Portrait portfolio item">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Portrait fashion image" loading="lazy">
+            <div class="portfolio-details">
+              <span>Portrait</span>
+              <h3>Quiet confidence</h3>
+            </div>
+          </article>
+          <article class="portfolio-card" data-category="street" tabindex="0" aria-label="Street portfolio item">
+            <img src="https://images.unsplash.com/photo-1524504388940-4c7127ee6d31?auto=format&fit=crop&w=900&q=80" alt="Street photography scene" loading="lazy">
+            <div class="portfolio-details">
+              <span>Street</span>
+              <h3>Urban motion</h3>
+            </div>
+          </article>
+          <article class="portfolio-card" data-category="travel" tabindex="0" aria-label="Travel portfolio item">
+            <img src="https://images.unsplash.com/photo-1485217988980-11786ced9454?auto=format&fit=crop&w=900&q=80" alt="Travel destination photography" loading="lazy">
+            <div class="portfolio-details">
+              <span>Travel</span>
+              <h3>Wanderlust frames</h3>
+            </div>
+          </article>
+          <article class="portfolio-card" data-category="fashion" tabindex="0" aria-label="Fashion portfolio item">
+            <img src="https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=900&q=80" alt="Fashion editorial portrait" loading="lazy">
+            <div class="portfolio-details">
+              <span>Fashion</span>
+              <h3>Runway refinement</h3>
+            </div>
+          </article>
+          <article class="portfolio-card" data-category="product" tabindex="0" aria-label="Product portfolio item">
+            <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=900&q=80" alt="Product photography composition" loading="lazy">
+            <div class="portfolio-details">
+              <span>Product</span>
+              <h3>Luxury detail</h3>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-gallery reveal" id="gallery">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Gallery</p>
+            <h2>Exclusive moments presented with cinematic polish.</h2>
+          </div>
+        </div>
+        <div class="gallery-layout">
+          <div class="gallery-card highlight" aria-label="Featured travel gallery image">
+            <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1000&q=80" alt="Featured travel image" loading="lazy">
+          </div>
+          <div class="gallery-card" aria-label="Luxury editorial detail image">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80" alt="Editorial detail portrait" loading="lazy">
+          </div>
+          <div class="gallery-card" aria-label="Fashion portrait image">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80" alt="Fashion portrait" loading="lazy">
+          </div>
+          <div class="gallery-card" aria-label="Luxury product photography image">
+            <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=800&q=80" alt="Product photography" loading="lazy">
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-about reveal" id="about">
+        <div class="about-grid">
+          <div class="about-visual">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80" alt="Photographer portrait" loading="lazy">
+          </div>
+          <div class="about-copy">
+            <p class="eyebrow">About me</p>
+            <h2>Éloise Martin — founder, creative director and lead photographer.</h2>
+            <p>For over a decade, Éloise has collaborated with luxury brands, editorial teams, and private clients to create imagery that feels both timeless and contemporary. Her work is grounded in trust, artistic direction, and a polished client experience.</p>
+            <div class="about-badges">
+              <span>Wedding specialist</span>
+              <span>Fashion editorials</span>
+              <span>Travel direction</span>
+            </div>
+            <div class="about-stats">
+              <div><strong>300+</strong><span>Featured projects</span></div>
+              <div><strong>120</strong><span>Luxury clients</span></div>
+              <div><strong>18</strong><span>Creative awards</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-services reveal" id="services">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Services</p>
+            <h2>Full-service photography, direction and client care.</h2>
+          </div>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="service-index">01</span>
+            <h3>Weddings & celebrations</h3>
+            <p>Luxury wedding photography with elegant planning, timeline management, and editorial portraits.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-index">02</span>
+            <h3>Fashion & editorial</h3>
+            <p>Creative fashion direction, mood-driven sets, and polished campaign imagery for premium brands.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-index">03</span>
+            <h3>Commercial & product</h3>
+            <p>Commercial photography that showcases product design, lifestyle moments, and editorial brand stories.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-index">04</span>
+            <h3>Travel & destination</h3>
+            <p>Destination storytelling with refined visual direction for hotels, resorts and travel collections.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-pricing reveal" id="pricing">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Pricing</p>
+            <h2>Packages designed for premium results.</h2>
+          </div>
+        </div>
+        <div class="pricing-grid">
+          <article class="pricing-card">
+            <p class="pricing-label">Signature</p>
+            <strong>$4,800</strong>
+            <p>Ideal for weddings, editorial launches, and portrait collections.</p>
+            <ul>
+              <li>8-hour shoot</li>
+              <li>Creative direction</li>
+              <li>Luxury retouching</li>
+            </ul>
+            <a class="button button-outline" href="#contact">Book now</a>
+          </article>
+          <article class="pricing-card featured">
+            <p class="pricing-label">Bespoke</p>
+            <strong>$7,200</strong>
+            <p>Fully customized production for brands, campaigns and destination storytelling.</p>
+            <ul>
+              <li>Creative concept</li>
+              <li>Full production support</li>
+              <li>Client proofing gallery</li>
+            </ul>
+            <a class="button button-primary" href="#contact">Request proposal</a>
+          </article>
+          <article class="pricing-card">
+            <p class="pricing-label">Express</p>
+            <strong>$2,200</strong>
+            <p>Portrait sessions, branding updates, and small commercial stories.</p>
+            <ul>
+              <li>3-hour shoot</li>
+              <li>Selective retouching</li>
+              <li>Digital delivery</li>
+            </ul>
+            <a class="button button-outline" href="#contact">Inquire</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-testimonials reveal" id="testimonials">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Testimonials</p>
+            <h2>What clients say about the experience.</h2>
+          </div>
+        </div>
+        <div class="testimonial-shell">
+          <button class="testimonial-nav" data-action="prev" aria-label="Previous testimonial">←</button>
+          <div class="testimonial-track" id="testimonialTrack">
+            <article class="testimonial-slide active" aria-label="Testimonial from Maison Noir">
+              <p>"Éloise created an effortless experience from concept to delivery. The imagery exceeded every expectation."</p>
+              <cite>Maison Noir</cite>
+            </article>
+            <article class="testimonial-slide" aria-label="Testimonial from Eastward Studio">
+              <p>"A flawless collaboration. The final gallery felt elevated, refined and exactly on brand."</p>
+              <cite>Eastward Studio</cite>
+            </article>
+            <article class="testimonial-slide" aria-label="Testimonial from Luna House">
+              <p>"Professional, creative and deeply attentive. The finished work feels like a modern luxury editorial."</p>
+              <cite>Luna House</cite>
+            </article>
+          </div>
+          <button class="testimonial-nav" data-action="next" aria-label="Next testimonial">→</button>
+        </div>
+      </section>
+
+      <section class="section section-blog reveal" id="blog">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Blog</p>
+            <h2>Stories, advice and creative direction.</h2>
+          </div>
+        </div>
+        <div class="blog-grid">
+          <article class="blog-card">
+            <span class="blog-tag">Editorial</span>
+            <h3>How to prepare for a luxury portrait session.</h3>
+            <p>Guidance on styling, pacing, and making every frame feel intentional.</p>
+            <a href="#contact">Read more</a>
+          </article>
+          <article class="blog-card">
+            <span class="blog-tag">Travel</span>
+            <h3>Capturing locations with cinematic light.</h3>
+            <p>Techniques for shooting destination stories with mood and movement.</p>
+            <a href="#contact">Read more</a>
+          </article>
+          <article class="blog-card">
+            <span class="blog-tag">Business</span>
+            <h3>Creating a memorable client proofing experience.</h3>
+            <p>How premium galleries and communication elevate every project.</p>
+            <a href="#contact">Read more</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-contact reveal" id="contact">
+        <div class="contact-grid">
+          <div class="contact-copy">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s start your next premium project.</h2>
+            <p>Available for destination assignments, luxury weddings, editorial campaigns and creative collaborations.</p>
+            <div class="contact-meta">
+              <div><strong>Email</strong><span>hello@etoilephoto.com</span></div>
+              <div><strong>Phone</strong><span>+1 212 555 9987</span></div>
+              <div><strong>WhatsApp</strong><span>+1 212 555 9987</span></div>
+            </div>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <label>
+              Name
+              <input type="text" name="name" required placeholder="Your name">
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required placeholder="you@example.com">
+            </label>
+            <label>
+              Project brief
+              <textarea name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+            </label>
+            <button class="button button-primary" type="submit">Send inquiry</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <p>Étoile Photographie</p>
+        <span>Luxury photography & creative direction</span>
+      </div>
+      <div class="footer-links">
+        <a href="#portfolio">Portfolio</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-copy">© <span id="year"></span> Étoile Photographie</p>
+    </footer>
+
+    <div class="form-toast" id="formToast" role="status" aria-live="polite">Thank you — your message has been received.</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
